@@ -1,0 +1,49 @@
+.fa {
+  color: aliceblue !important;
+  font-size: 48px !important;
+  cursor: pointer;
+  transition: all 1s;
+}
+.fa:hover {
+  transform: rotate(0.4turn);
+}
+
+#trach {
+  background-color: black;
+  border: none;
+  width: 35px;
+  height: 35px;
+}
+div button {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 70px;
+  color: black;
+}
+span {
+  font-size: x-large;
+  font-family: cursive;
+}
+#contenaire {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: black;
+}
+
+h1 {
+  color: aliceblue;
+}
+p {
+  color: aliceblue;
+  font-size: 15px;
+  transition: all 2s;
+}
